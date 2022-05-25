@@ -1,0 +1,266 @@
+body {
+    background-color: #FFFFFF;
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 0px 100px;
+}
+body.dark {
+    background-color: #444444;
+    color: #CCCCCC;
+}
+
+.masthead {
+    color: #0594e7;
+    margin: auto;
+}
+body.dark .masthead {
+    color: rgba(5,148,231,0.5); 
+}
+
+/* NAVBAR */
+.navbar {
+    border-radius: 5px;
+}
+
+.navbar-custom {
+    background-color: #0594e7;
+    height: 30px;
+}
+body.dark .navbar-custom {
+    background-color: rgba(5,148,231,0.5); ; 
+}
+/* navbar link colour */
+.navbar-custom .navbar-nav .nav-link {
+    color: #eeeeee;
+}
+body.dark .navbar-custom .navbar-nav .nav-link {
+    color: #111111;
+}
+
+/* navbar colour of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #111111;
+}
+body.dark .navbar-custom .nav-item.active .nav-link,
+body.dark .navbar-custom .nav-item:focus .nav-link,
+body.dark .navbar-custom .nav-item:hover .nav-link {
+    color: #FFFFFF;
+}
+
+/* Icons */
+.icon-only {
+    display: none;
+    margin-top: 7px;
+}
+
+.textSearcher {
+    margin-top:15px;
+}
+
+.text-control {
+    background-color: lightyellow;
+}
+body.dark .text-control {
+    background-color: darkgray;
+    color: #efefef;
+}
+
+/* Input fields */
+.inputTextField {
+    background-color: rgba(245, 245, 0,0.1);
+    border-color: #b8b8b8;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    margin-left: 10px;
+    padding: 2px 5px;
+    width: 95%;
+}
+body.dark .inputTextField {
+    background-color: rgba(64,64,64,.5);
+    color: #efefef;
+   
+}
+
+.inputLabelField {
+    margin-top: 2px;
+}
+
+/* MODALS */
+.modal-header, .modal-body, .modal-footer {
+    background-color:#ffffff;
+}
+
+body.dark .modal-header, body.dark .modal-body, body.dark .modal-footer {
+    background-color: #777777;
+}
+
+body.dark .modal-footer .btn-outline-success {
+    color: rgb(0,255,0);
+    border-color: rgb(0,255,0)
+}
+body.dark .modal-footer .btn-outline-success:hover {
+    background-color: rgb(0,255,0);
+    color: black;
+}
+body.dark .modal-footer .btn-outline-danger {
+    color: rgb(255,0,0);
+    border-color: rgb(255,0,0)
+}
+body.dark .modal-footer .btn-outline-danger:hover {
+    background-color: rgb(255,0,0);
+    color: white;
+}
+
+
+/* DATATABLES */
+
+.dt-buttons .btn {
+    border-radius: 4px;
+    height: 40px;
+    margin: 0 10px;
+    background-image: linear-gradient(rgb(192,192,255), rgb(208,208,255));
+    /* box-shadow:blue; */
+    color: black;
+}
+body.dark .dt-buttons .btn {
+    background-image: linear-gradient(rgb(192,255,192), rgb(208,255,208));
+}
+
+.dt-buttons .btn:hover {
+    background-image: linear-gradient(rgb(192,192,192),rgb(255,255,255));
+}
+body.dark .dt-buttons .btn:hover {
+    background-image: linear-gradient(rgb(128,128,128),rgb(192,192,192));
+}
+
+.paginate_button .page-link {
+    background-image: linear-gradient(rgb(255,255,255), rgb(192,192,192));
+    color: black;
+}
+.paginate_button .page-link:hover {
+    background-image: linear-gradient(rgb(192,192,192), rgb(255,255,255));
+    color: #333333;
+}
+body.dark .paginate_button .page-link {
+    background-image: linear-gradient(rgb(192,192,192), rgb(128,128,128));
+    color: black;
+}
+body.dark .paginate_button .page-link:hover {
+    background-image: linear-gradient(rgb(128,128,128), rgb(192,192,192));
+    color: #333333;
+}
+body.dark .table .child {
+    background-color: #444444;
+    color: #CCCCCC
+}
+
+ /* table.dataTable tbody > tr.selected td {
+    background-color: #809EFF !important;
+  }  */
+
+#showMyAccount, #showLocation {
+    margin: 25px 50px;
+    padding: 10px;
+
+}
+
+.myAccountLabelField {
+    background: rgb(255, 255, 255);
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+}
+body.dark .myAccountLabelField {
+    background: #444444;
+    color: #CCCCCC;
+}
+
+.myAccountTextField {
+    background: rgb(255, 255, 255);
+    display: block;
+    border: 2px solid #ccc;
+    border-style: none none solid none;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+}
+body.dark .myAccountTextField {
+    background: #666666;
+    color: #DDDDDD;
+
+}
+.custom-select {
+    font-size: 18px;
+}
+
+input[type=search] {
+    background: #FFFFFF;
+    color: #444444;
+}
+body.dark input[type=search] {
+    background: darkgray;
+    color: #efefef;
+}
+select[name=books_length] {
+    background: #FFFFFF;
+    color: #444444;
+}
+body.dark select[name=books_length] {
+    background: darkgray;
+    color: #efefef;
+}
+
+.bi-pencil {
+    color: blue;
+}
+body.dark .bi-pencil {
+    color: lightgreen;
+}
+    
+.list-group-item {
+    background-color: #eeeeee;
+    color: #444444;
+}
+body.dark .list-group-item {
+    background-color: #666666;
+    color: #DDDDDD;
+}
+
+
+.locationList .list-group-item:hover {
+    background-color: red;
+}
+
+body.dark .locationList .list-group-item:hover {
+    background-color: #cccccc;
+    color: #444444;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .masthead h2 {
+        font-size:18px; 
+        margin-top: 3px;
+    }
+    .headerImage {
+        width: 150%;
+    }
+    .full-text {
+        display: none;
+    }
+    .icon-only {
+        display:inline-block;
+    }
+    #showMyAccount, #showLocation {
+        margin: 25px 5px;
+    }
+}
+
+
+
